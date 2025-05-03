@@ -12,10 +12,10 @@ flag = True
 keep_running = True
 
 while keep_running:
-    print("\n", 6*"*", " SISTEMA DE CALIFICACIONES PARA CALCULAR PROMEDIO ", 6*"*")
-    flag = True
+    print("\n", 6*"*", " SISTEMA DE CALIFICACIONES PARA CALCULAR PROMEDIO ", 6*"*")# Menu de entrada
+    
     while flag:
-        try:   
+        try:   #Ingresando calificacion
             grade = float(input(f"\nINGRESA LA CALIFICACIÓN (0-100) PARA SABER SI APROBO O REPROBO: "))
 
             if 0 <= grade <= 100: #Verificacion de promedio si aprueba o no
